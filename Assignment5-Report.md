@@ -29,29 +29,29 @@ We made a selection of all the hazard functions available in C-SFRAT namely:
 -Truncated Logistic
 
 The resulting plot is shown below:
-![plot on all the covariates](media\img1.png)
+![plot on all the covariates](media/img1.png)
 
 The intensity plot shown below for the same data can be inferred using Ctrl+I shortcut.
-![plot on all the covariates](media\img2.png)
+![plot on all the covariates](media/img2.png)
 
 The model comparision based on their best fit using the model comaprison tool in C-SFRAT with equal metric weights of 1.0 eac for LLF,AIC,BIC,SSE is displayed below:
-![plot on all the covariates](media\img3.png)
+![plot on all the covariates](media/img3.png)
 
 From the table it can be inferred that the top two models are the discrete weibull type 3 on covariate F having a 1.0 critic for mean and median and the IFRGSB on covariate F having 0.998 critic for mean and median. A comparision of these two models is shown below:
-![Comparision of models](media\img4.png)
+![Comparision of models](media/img4.png)
 
 
 Intensity Plot
-![Intensity Plot](media\img5.png)
+![Intensity Plot](media/img5.png)
 
 The graph shown below shows that it is a relatively declining or plateauing curve for the IFRGSB on covariate F. This indicates failure in reliability growth, since the amounts of failures starts to happen more and more as time increases. Therefore, the system does not exhibit reliability growth, as the failures over time intervals is predicted by C-SFRAT to be plateauing.
 
 The graph for the DW3 model on covariate F indicates that there is steady realibikity growth, since the amounts of failures starts to happen less and less as time increases, measured for the next 69 intervals.
-![comparision of top two](media\img6.png)
+![comparision of top two](media/img6.png)
 
 
 From the failure intensity graph of both the models it can be inferred that the that the failure intensity is quite large and does not show promise in hitting the 1.0 target (default value in the tool). We adjusted the target failure intensity to 0.5 as such: 
-![comparision of top two](media\img6.png)
+![comparision of top two](media/img7.png)
 
 As a result, C-SFRAT implies that both models are likely to meet the new failure intensity rate target of 0.5. At an interval of 52, the DW3 model will reach the target failure intensity rate, while the IFRGSB will be around 34. As a result, a target failure intensity rate range of 0.6 or below is appropriate, whereas anything approaching 1.0 or higher is excessive.
 # Assessment Using Reliability Demonstration Chart 
