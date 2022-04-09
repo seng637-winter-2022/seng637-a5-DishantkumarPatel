@@ -10,6 +10,8 @@
 |Mit Patel           |   |
 |Dishantkumar Patel  |   |
 
+# demo link
+https://drive.google.com/file/d/1DuTgCOnqzzccxzqXZAIDHbfJMRNNTKwz/view?usp=sharing
 # Introduction
 Reliability growth testing:
 The purpose of reliability growth testing is to evaluate existing reliability, find and eliminate problems, and estimate future reliability. To track progress, the reliability numbers are compared to intermediate reliability objectives. This allows resources to be directed toward meeting the reliability goals in a timely and cost-effective manner. When a failure occurs, remedial action is conducted to eliminate the source of the problem. For Hardware growth testing is the practise of putting equipment through its paces in both natural and artificial environments.  To ensure that all latent failure modes and mechanisms are discovered, environmental factors must be studied. Problems with performance, design, and the environment have been resolved.
