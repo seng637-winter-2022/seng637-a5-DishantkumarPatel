@@ -69,15 +69,18 @@ As a result, C-SFRAT implies that both models are likely to meet the new failure
 # Assessment Using Reliability Demonstration Chart 
 
 In the Reliability Demonstration Chart, the values of cumulative failures are plotted against the cumulative execution time (E) of the given data. The values of discrimination ratio, consumer risk, and supplier risk are 2, 10%, and 10% respectively.  The value of MTTF is obtained by calculating the average value of the execution time interval and its inverse gives the value of failure intensity.
-λ_f= 0.6
+
+- λ_f= 0.6
 
 ![comparision of top two](media/img8.png)
 
 
-λ_f= 1.2
+- λ_f= 1.2
+
 ![comparision of top two](media/img9.png)
 
-λ_f= 0.3
+- λ_f= 0.3
+
 ![comparision of top two](media/img10.png)
 
 The following observations are made by RDC,
