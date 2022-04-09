@@ -9,6 +9,7 @@
 |Jairath Chopra      |   |
 |Mit Patel           |   |
 |Dishantkumar Patel  |   |
+
 # Introduction
 Reliability growth testing:
 The purpose of reliability growth testing is to evaluate existing reliability, find and eliminate problems, and estimate future reliability. To track progress, the reliability numbers are compared to intermediate reliability objectives. This allows resources to be directed toward meeting the reliability goals in a timely and cost-effective manner. When a failure occurs, remedial action is conducted to eliminate the source of the problem. For Hardware growth testing is the practise of putting equipment through its paces in both natural and artificial environments.  To ensure that all latent failure modes and mechanisms are discovered, environmental factors must be studied. Problems with performance, design, and the environment have been resolved.
@@ -67,18 +68,37 @@ From the failure intensity graph of both the models it can be inferred that the 
 As a result, C-SFRAT implies that both models are likely to meet the new failure intensity rate target of 0.5. At an interval of 52, the DW3 model will reach the target failure intensity rate, while the IFRGSB will be around 34. As a result, a target failure intensity rate range of 0.6 or below is appropriate, whereas anything approaching 1.0 or higher is excessive for both the models.
 # Assessment Using Reliability Demonstration Chart 
 
-# 
+In the Reliability Demonstration Chart, the values of cumulative failures are plotted against the cumulative execution time (E) of the given data. The values of discrimination ratio, consumer risk, and supplier risk are 2, 10%, and 10% respectively.  The value of MTTF is obtained by calculating the average value of the execution time interval and its inverse gives the value of failure intensity.
+λ_f= 0.6
+
+![comparision of top two](media/img8.png)
+
+
+λ_f= 1.2
+![comparision of top two](media/img9.png)
+
+λ_f= 0.3
+![comparision of top two](media/img10.png)
+
+The following observations are made by RDC,
+
+For λ_f= 0.6 the curve ends up in the continue region. So, more testing is required to draw any conclusions regarding the SUT.
+For λ_f= 1.2 the curve ends in the accept region which indicates that the target specifications is achieved.
+For λ_f= 0.3 the curve ends up in the reject zone which implies that the target specifications are not achieved.
+
+Analysis using a Reliability Demonstration Chart is both time and cost-efficient way of demonstration of the reliability of the system. However, it does not assign a numerical value to the reliability. It only shows the trend of changes and their effect on system’s reliability.
 
 # Comparison of Results
+After completing the testing on the two reliability assessment tools, we discovered that the desired failure rates are depicted differently by both tools. Both RDC  and C-SFART passed the reliability testing since the target failure rates were greater than the system's failure intensity objective. Both are giving an average intensity rate of 0.6
 
 # Discussion on Similarity and Differences of the Two Techniques
 
 Through reliability growth analysis the trend of the system's relability can be determined and whether or not this is an acceptable goal given the failure data. RDC analysis is very versatile, time and cost efficient way of analyzing the reliability of a system. A disadvantage of the RDC is that it cannot be used to calculate the exact quantitative value for the reliability (or availability) of the system under study RDC can only indicate that the SUT is acceptable or not.
 # How the team work/effort was divided and managed
 The team work was divided into two pairs. Srujan and Jairath did the part one, while Dishantkumar and Mit did part two. Everyone contributed in making the report.
-# 
-
 # Difficulties encountered, challenges overcome, and lessons learned
+
+Getting the lab tools to work at all was one of the challenges. The application notified us that the failed set I was using for data import was in the improper format. The applications would not work at all for some members of the group, or the failure dataset would not be allowed to be imported. Overall, the lab was tough to comprehend, little confusing.
 
 # Comments/feedback on the lab itself
 This lab examines program reliability testing using failure data and a variety of testing techniques. We looked at reliability growth testing and reliability assessment with a reliability demonstration chart in particular. This lab also allowed us to compare multiple reliability evaluations to examine the benefits and drawbacks of each and improve our future tool usage decisions.
